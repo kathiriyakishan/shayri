@@ -18,7 +18,7 @@ class edit extends StatefulWidget {
 
 class _editState extends State<edit> {
   Color c=Colors.yellow;
-  bool temp=true;
+  bool temp=false;
 
   WidgetsToImageController controller = WidgetsToImageController();
   Uint8List? bytes;
